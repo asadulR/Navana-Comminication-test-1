@@ -1,0 +1,19 @@
+#container{
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: auto auto auto;
+}
+
+.layout2card{
+    background-color: #da1e5d;
+    border-radius: 14px;
+    padding: 100px;
+    text-align: center;
+}
+
+.layout2card h2{
+    color: #e0e0e0;
+    line-height: 26px;
+    font-size: 22px;
+    font-weight: 700;
+}

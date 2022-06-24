@@ -1,0 +1,17 @@
+.container{
+    padding: 64px;
+    background: #F5F5F5;
+}
+.layout-btn{
+    margin-right: 8px;
+    text-decoration: none;
+    padding: 19px 34px;
+    font-size: 22px;
+    font-weight: 300;
+    border-radius: 14px;
+}
+
+.navbar{
+    display: flex;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,36 @@
+.layoud3card1 { grid-area: header; }
+.layoud3card2 { grid-area: menu; }
+.layoud3card3 { grid-area: main; }
+.layoud3card4 { grid-area: right; }
+.layoud3card5 { grid-area: footer; }
+
+
+.layout3-container {
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        'menu main main main main right'
+        'footer footer footer footer footer footer';
+    grid-gap: 30px;
+}
+
+.layoud3card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #da1e5d;
+    color: #e0e0e0;
+    text-align: center;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 25px;
+    border-radius: 14px;
+}
+
+.layoud3card1, .layoud3card5{
+    padding: 15px;
+}
+
+.layoud3card2, .layoud3card3 .layoud3card4{
+    padding: 100px 0;
+}
